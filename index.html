@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callender</title>
+</head>
+
+<body>
+
+    <style>
+        .main-column {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            /* grid-template-rows: repeat(5, 1fr); */
+            gap: 20px;
+            background-color: antiquewhite;
+            padding: 80px;
+            border-radius: 10px;
+
+        }
+
+        .day,
+        .ber {
+            background-color: aqua;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 25px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 5px;
+        }
+
+        .ber {
+            background-color: rgb(158, 158, 241);
+            height: 40px;
+        }
+
+        h2 {
+            font-size: 60px;
+            color: blue;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-bottom: 2px #fff000 double;
+            text-align: center;
+
+
+        }
+
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
+
+        span{
+            text-decoration: underline;
+            font-weight: 500;
+            color: blue;
+            text-transform: uppercase;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        @media screen and (max-width: 776px)
+            {
+            .main-column {
+                padding: 50px 30px;
+            }
+           
+        }
+
+        @media screen and (max-width: 576px) {
+            .ber, .day{
+                font-size: 18px;
+            }
+            .main-column{
+                gap: 10px;
+            }
+        }
+
+        @media screen and (max-width: 380px) {
+            .ber, .day{
+                font-size: 14px;
+                height: 30px;
+            }
+
+           
+        }
+    </style>
+    <div class="callender-section">
+        <div class="container">
+            <h2>Calender</h2>
+            <div class="main-column">
+                <div class="ber">S</div>
+                <div class="ber">M</div>
+                <div class="ber">T</div>
+                <div class="ber">W</div>
+                <div class="ber">T</div>
+                <div class="ber">F</div>
+                <div class="ber">S</div>
+                <div class="day">27 </div>
+                <div class="day"> 28</div>
+                <div class="day"> 29</div>
+                <div class="day"> 30</div>
+                <div class="day"> 1</div>
+                <div class="day"> 2</div>
+                <div class="day"> 3</div>
+                <div class="day"> 4</div>
+                <div class="day"> 5</div>
+                <div class="day"> 6</div>
+                <div class="day"> 7</div>
+                <div class="day"> 8</div>
+                <div class="day"> 9</div>
+                <div class="day"> 10</div>
+                <div class="day"> 11</div>
+                <div class="day"> 12</div>
+                <div class="day"> 13</div>
+                <div class="day"> 14</div>
+                <div class="day"> 15</div>
+                <div class="day"> 16</div>
+                <div class="day"> 17</div>
+                <div class="day"> 18</div>
+                <div class="day"> 19</div>
+                <div class="day"> 20</div>
+                <div class="day"> 21</div>
+                <div class="day"> 22</div>
+                <div class="day"> 23</div>
+                <div class="day"> 24</div>
+                <div class="day"> 25</div>
+                <div class="day"> 26</div>
+                <div class="day"> 27</div>
+                <div class="day"> 28</div>
+                <div class="day"> 29</div>
+                <div class="day"> 30</div>
+                <div class="day"> 31</div>
+                <div class="day"> 1</div>
+                <div class="day"> 2</div>
+                <div class="day"> 3</div>
+                <div class="day"> </div>
+                <div class="day"> </div>
+                <div class="day"> </div>
+                <div class="day"> </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Disigner By <span>sujon</span> 1-9-2024 Coppy Worning</p>
+    </footer>
+</body>
+
+</html>
